@@ -7,13 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.0.0] - 2025-09-10
-
-
+## [3.1.0] - 2024-07-27
 
 ### Added
 
--   Initial release of this action!
+- Add a new `release-notes` output to the action containing the release notes for the newly released versions.
 
-[Unreleased]: https://github.com/Guistarcks/keep-a-changelog-new-release/compare/1.1.0...HEAD
+## [3.0.0] - 2024-04-08
+
+### Fixed
+
+- Spacing in Markdown lists and definitions
+- "unreleased" definition casing
+
+### Changed
+
+- Update action to use `node20`
+
+## [2.0.0] - 2024-02-14
+
+### Changed
+
+- Update action to use `node16`
 

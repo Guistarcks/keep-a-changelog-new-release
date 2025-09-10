@@ -51,13 +51,10 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Update changelog
-      uses: OWNER/keep-a-changelog-new-release@v1
+      uses: OWNER/keep-a-changelog-new-release@v2
       with:
-        version: 0.6.0 # You probably want to have this dynamic :)
+        tag: v0.6.0 # You probably want to have this dynamic :)
 ```
 
-The action will do nothing else apart from modifying the changelog.
-It neither creates a commit, nor does it push anything to anywhere.
-You will have to do that as part of your workflow if you need this behaviour.
 
-Checkout [this blogpost](TODO) for a complete workflow of an automated release using GitFlow and Github actions.
+
